@@ -42,8 +42,8 @@ header {
 .characters li { 
     position: relative;
     display: inline-block;
-    height: 180px;
-    margin: 10px 8px;
+    height: auto;
+    margin: 10px 0px;
 
     background-color: rgb(136, 132, 132);
 
@@ -91,20 +91,20 @@ article p {
 }
 
 .sprite {
-    width: 150px;
-    height: 150px;
+    width: 220px;
+    height: 200px;
     
-    background-image: url('../images/Characters_Sprite.jpg');
+    background-image: url('../images/Screenshot\ 2022.png');
 }
 
-#Mario { background-position:  0.5px 0; }
-#Luigi { background-position: -150px 0; }
-#Peach { background-position: -300px 0; }
-#Toad { background-position: -450px 0; }
-#Bowser { background-position: -600px 0; }
-#Yoshi { background-position: -750px 0; }
+#authur { background-position:  0.5px 0px; }
+#john{ background-position: -225px  0 ; }
+#michal { background-position: -450px 0; }
+#Tomy { background-position: -680px 0; }
+#helen { background-position: -890px 0; }
+#polly { background-position: -1120px 0; }
 
-.sprite:hover { background-position-y: -151px !important; }
+.sprite:hover { background-position-y: -228px !important; }
 
 footer {
     color: goldenrod;
@@ -122,7 +122,7 @@ footer {
 
 .lightbox { 
     width: 100vw; 
-    height: 110vh; 
+    height: 100vh; 
 
     position: absolute;
     top: 0;
@@ -160,7 +160,7 @@ height: 100vh;}
     font-weight: bolder;
 }
 
-.lightbox_close:hover { opacity: 0.5; color: rgb(251, 255, 0); }
+.lightbox_close:hover { opacity: 0.5; color: goldenrod; }
 
 .lightbox article {
     width: 55%;
